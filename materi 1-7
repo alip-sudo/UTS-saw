@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <?php 
+    
+      $nama = "Sekolah Koding";
+      $nama2 = "Bermain Koding";
+
+      echo "Selamat datang di $nama <br>";
+
+      $angka = 1000;
+      $angka2 = 100.123;
+      $angka3 = 3;
+      $angka4 = 2;
+      $angka5 = 2.64;
+
+      echo $angka *= $angka3;
+
+      echo "Angka Hari Ini Adalah". min($angka5, $angka,)
+      
+      $angka = [5, 10, 12, 1, 6];
+    $kotak = array ('anjing','kurakura', 'koala', 'anjing');
+    $nama = ['Hilman', 'Endy', 'Alip'];
+
+  //print_r($kotak);
+  //echo $nama[0];
+  //sort($angka);
+  //print_r( $angka );
+  //echo count($nama);
+  //$data = array("nama" => "Alif",
+             //   "umur" => 21,
+             //   "Kerja" => "pengacara"
+    
+  //);
+
+  //$data2 = array ('istri' => 'belum ada',
+  //                'laptop' => 'Chromebook'
+    
+  //);
+  //print_r($data);
+  //$data ['nama'] = "Alif Bagas";
+  //-------------------- Metode Assosiatif Array --------------
+  //echo "Nama Adalah " . $data['nama'];
+  //print_r(array_merge($data, $data2));
+  //-------------------- Multi Dimensi Array ------------------
+  //$data = array(
+   //           array('programmer','21','males'),
+   //          array('designer','23','rajin'),
+   //           array('manager','19','males banget')
+   //           );
+
+// 00 01 02
+// 10 11 12
+// 20 21 22
+
+//$data[2][0] = 'projek manager';
+//echo $data[2][0];
+
+// $hewan = ['anjing', 'babi', 'cicak', 'kucing', 'buaya'];
+
+      //for($i= 0; $i< count($hewan)-1; $i++)
+     // {
+       // echo "sekolah koding <br>";
+        //echo $hewan [$i];
+        //echo '<br>';
+      
+      //}
+     // foreach($hewan as $h){
+       // echo "------------";
+        //echo $h;
+       // echo "------------ <br>";
+      //}
+      //$data = [ 'nama' => 'alip', 
+      //          'umur'=>21, 
+      //          'sifat'=>'rajin menabung'];
+
+      //  foreach($data as $key => $value){
+      //    echo $value . "<br>";
+      //  }
+     // $i = 5;
+     // while($i < count($hewan)){
+     //   echo $hewan[$i]. '<br>';
+     //   $i++;
+     // }
+
+    //do{
+    //  echo '-----';
+    //  echo $hewan[$i].'<br>';
+    //  $i++;
+      
+    //}while($i < count($hewan));
+
+      
+      
+      
+      
+      
+      ?> 
+  </body>
+</html>
